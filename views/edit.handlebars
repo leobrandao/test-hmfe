@@ -1,0 +1,85 @@
+<div class="container text-center">
+	<h1>Editar Localização</h1>	
+</div>
+<div class="container">
+	<form method="post">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="form-group">
+				    <label for="label">Nome do Local</label>
+				    <input type="text" class="form-control" name="label" value="{{data.label}}">
+				</div>		
+			</div>
+		</div>
+		<div class="row">
+		  	<div class="col-md-6">
+				<div class="form-group">
+			    	<label for="address">Endereço</label>
+			    	<input type="text" class="form-control" name="address" value="{{data.address}}">
+			  	</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<div class="form-group">
+			    	<label for="number">Numero</label>
+			    	<input type="text" class="form-control" name="number" value="{{data.number}}">
+			  	</div>
+			</div>
+			<div class="col-md-2">
+				<div class="form-group">
+			    	<label for="complement">Complemento</label>
+			    	<input type="text" class="form-control" name="complement" value="{{data.complement}}">
+			  	</div>
+			</div>
+			<div class="col-md-2">
+				<div class="form-group">
+			    	<label for="neighborhood">Bairro</label>
+			    	<input type="text" class="form-control" name="neighborhood" value="{{data.neighborhood}}">
+			  	</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="form-group">
+				    <label for="city">Cidade</label>
+				    <input type="text" class="form-control" name="city" value="{{data.city}}">
+				</div>		
+			</div>
+		  	<div class="col-md-3">
+				<div class="form-group">
+			    	<label for="state">Estado</label>
+			    	<input type="text" class="form-control" name="state" value="{{data.state}}">
+			  	</div>
+			</div>
+			<div class="col-md-2">
+				<div class="form-group">
+			    	<label for="zipCode">CEP</label>
+			    	<input type="text" class="form-control" name="zipCode" value="{{data.zipCode}}">
+			  	</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="form-group">
+				    <label for="country">País</label>
+				    <input type="text" class="form-control" name="country" value="{{data.country}}">
+				</div>		
+			</div>
+		  	<div class="col-md-3">
+				<div class="form-group">
+			    	<label for="latitude">Latitude</label>
+			    	<input type="text" class="form-control" name="latitude" value="{{data.latitude}}">
+			  	</div>
+			</div>
+			<div class="col-md-3">
+				<div class="form-group">
+			    	<label for="longitude">Longitude</label>
+			    	<input type="text" class="form-control" name="longitude" value="{{data.longitude}}">
+			  	</div>
+			</div>
+		</div>
+	  <input type="submit" name="submit" value="Salvar" class="btn btn-default">
+	  <button type="button" name="cancel" class="btn btn-default" onclick="javascript:window.location='/list';">Cancelar</button>
+	</form>
+</div>

@@ -1,0 +1,35 @@
+<div class="container text-center">
+	<h1>Lista de Endereços Cadastrados</h1>	
+</div>
+
+
+<div class="container">
+	<div class="table-responsive">
+		<table class="table table-hover table-striped addressList">
+			<thead>
+				<tr>
+					<td>Rótulo</td>
+					<td>Endereço</td>
+					<td>#</td>
+					<td>Cidade</td>
+					<td>Estado</td>
+					<td>País</td>
+				</tr>
+			</thead>
+			<tbody>
+				{{#each data}}
+					<tr class="itemEndereco" id="listItem-{{this.id}}">
+						<td>{{this.label}}</td>
+						<td>{{this.address}}</td>
+						<td>{{this.number}}</td>
+						<td>{{this.city}}</td>
+						<td>{{this.state}}</td>
+						<td>{{this.country}}</td>
+						<td><a href="/edit/{{this.id}}">Editar</a></td>
+						<td><a href="/delete/{{this.id}}">Excluir</a></td>
+					</tr>
+				{{/each}}
+			</tbody>
+		</table>
+	</div>
+</div>

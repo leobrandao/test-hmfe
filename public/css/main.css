@@ -1,0 +1,66 @@
+body div.homePage img#hm-logo{
+	width: 100%;
+	max-width: 560px;
+}
+
+body div.homePage .row input#loginBtn {
+	width: 100%;
+	background-color: #f04e23;
+	color: #fff;
+}
+
+body nav.navbar {
+	background-color: #f04e23; 
+}
+
+body nav.navbar a.navbar-brand {
+	padding: 5px 0;
+}
+
+body nav.navbar a img {
+	max-height: 40px;
+}
+
+body nav.navbar ul.navbar-nav li a {
+	color: #fff;
+}
+
+body nav.navbar ul.navbar-nav li a:hover {
+	background-color: #053d4e;
+	color: #f04e23;
+}
+
+body nav.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+body h1 {
+	margin-bottom: 1.2em;
+}
+
+body table.addressList > thead > tr > td {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+body table.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #053d4e;
+    color: #fff;
+}
+
+body table.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f04e23;
+    color: #fff;
+}
+
+body table.table-striped > tbody > tr:nth-of-type(even) a{
+    color: #f04e23;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+body table.table-striped > tbody > tr:nth-of-type(odd) a{
+    color: #053d4e;
+    text-decoration: underline;
+    font-weight: bold;
+}

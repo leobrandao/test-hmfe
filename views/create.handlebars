@@ -1,0 +1,85 @@
+<div class="container text-center">
+	<h1>Cadastro de Nova Localização</h1>	
+</div>
+<div class="container">
+	<form method="post">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="form-group">
+				    <label for="label">Nome do Local</label>
+				    <input type="text" class="form-control" name="label" placeholder="Nome do Local">
+				</div>		
+			</div>
+		</div>
+		<div class="row">
+		  	<div class="col-md-6">
+				<div class="form-group">
+			    	<label for="address">Endereço</label>
+			    	<input type="text" class="form-control" name="address" placeholder="Endereço">
+			  	</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<div class="form-group">
+			    	<label for="number">Numero</label>
+			    	<input type="text" class="form-control" name="number" placeholder="Numero">
+			  	</div>
+			</div>
+			<div class="col-md-2">
+				<div class="form-group">
+			    	<label for="complement">Complemento</label>
+			    	<input type="text" class="form-control" name="complement" placeholder="Complemento">
+			  	</div>
+			</div>
+			<div class="col-md-2">
+				<div class="form-group">
+			    	<label for="neighborhood">Bairro</label>
+			    	<input type="text" class="form-control" name="neighborhood" placeholder="Bairro">
+			  	</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="form-group">
+				    <label for="city">Cidade</label>
+				    <input type="text" class="form-control" name="city" placeholder="Cidade">
+				</div>		
+			</div>
+		  	<div class="col-md-3">
+				<div class="form-group">
+			    	<label for="state">Estado</label>
+			    	<input type="text" class="form-control" name="state" placeholder="Estado">
+			  	</div>
+			</div>
+			<div class="col-md-2">
+				<div class="form-group">
+			    	<label for="zipCode">CEP</label>
+			    	<input type="text" class="form-control" name="zipCode" placeholder="CEP">
+			  	</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<div class="form-group">
+				    <label for="country">País</label>
+				    <input type="text" class="form-control" name="country" placeholder="País">
+				</div>		
+			</div>
+		  	<div class="col-md-3">
+				<div class="form-group">
+			    	<label for="latitude">Latitude</label>
+			    	<input type="text" class="form-control" name="latitude" placeholder="Latitude">
+			  	</div>
+			</div>
+			<div class="col-md-3">
+				<div class="form-group">
+			    	<label for="longitude">Longitude</label>
+			    	<input type="text" class="form-control" name="longitude" placeholder="Longitude">
+			  	</div>
+			</div>
+		</div>
+	  <input type="submit" name="submit" value="Cadastrar" class="btn btn-default">
+	  <button type="button" name="cancel" class="btn btn-default" onclick="javascript:window.location='/list';">Cancelar</button>
+	</form>
+</div>

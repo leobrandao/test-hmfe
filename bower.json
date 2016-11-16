@@ -1,0 +1,22 @@
+{
+  "name": "test-hotmart",
+  "description": "Teste Front-End Hotmart",
+  "main": "server.js",
+  "authors": [
+    "Leonardo Brandao"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}
